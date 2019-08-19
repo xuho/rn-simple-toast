@@ -1,0 +1,28 @@
+{
+  "name": "rn-simple-toast",
+  "version": "1.0.0",
+  "description": "React Native Toast component for both iOS and Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuho/rn-simple-toast.git"
+  },
+  "keywords": [
+    "react-native",
+    "toast",
+    "react-native-toast",
+    "react-native-simple-toast",
+    "android",
+    "ios",
+    "mobile"
+  ],
+  "author": "xuho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuho/rn-simple-toast/issues"
+  },
+  "homepage": "https://github.com/xuho/rn-simple-toast#readme"
+}
