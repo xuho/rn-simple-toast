@@ -1,6 +1,6 @@
 {
   "name": "rn-simple-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Toast component for both iOS and Android",
   "main": "index.js",
   "scripts": {

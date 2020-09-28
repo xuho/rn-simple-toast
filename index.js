@@ -40,12 +40,14 @@ class Toast extends Component {
         this.setState({ isShow: true, title, color }, () => {
             Animated.timing(this.animatedOpacity, {
                 toValue: 0.9,
-                duration: 500
+                duration: 500,
+                useNativeDriver: false,
             }).start(() => {
                 setTimeout(() => {
                     Animated.timing(this.animatedOpacity, {
                         toValue: 0,
-                        duration: 500
+                        duration: 500,
+                        useNativeDriver: false,
                     }).start(() => {
                         this.setState({ isShow: false });
                     });
